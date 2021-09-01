@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Search() {
+export default function NoMatch() {
   return (
     <div>
-      <p>Search page</p>
+      <p>Nothing is here</p>
     </div>
   );
 }
