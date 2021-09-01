@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-
 import BitterRegular from './fonts/Bitter-Regular.woff';
 import BitterRegular2 from './fonts/Bitter-Regular.woff2';
 import MontserratRegular from './fonts/Montserrat-Regular.woff';
@@ -11,12 +10,15 @@ import MontserratSemiBold2 from './fonts/Montserrat-600.woff2';
 import MontserratBold from './fonts/Montserrat-700.woff';
 import MontserratBold2 from './fonts/Montserrat-700.woff2';
 
+
+
 const GlobalStyle = createGlobalStyle`
   /* bitter-regular - latin */
   @font-face {
     font-family: 'Bitter';
     font-style: normal;
     font-weight: 400;
+
     src: local('Bitter'),
         url(${BitterRegular2}) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
         url(${BitterRegular}) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
