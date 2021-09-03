@@ -6,7 +6,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    box-sizing: border-box;
     font-family: ${({ theme }) => theme.font.family.default};
     font-size: ${({ theme }) => theme.font.size.default};
     line-height: ${({ theme }) => theme.font.lineHeight.default};
