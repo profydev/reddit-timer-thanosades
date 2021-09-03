@@ -4,7 +4,7 @@ const theme = {
   },
   font: {
     family: {
-      default: 'Montserrat, sans-serif',
+      default: '"Montserrat", sans-serif',
       headline: 'Bitter, serif',
     },
     size: {
