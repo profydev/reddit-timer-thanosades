@@ -1,24 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
+import HorizontalList from './HorizontalList';
 
 export default function Nav() {
   return (
     <nav>
-      <List>
+      <HorizontalList>
         <li>Search</li>
         <li>How it works</li>
         <li>About</li>
-      </List>
+      </HorizontalList>
     </nav>
   );
 }
-
-const List = styled.ul`
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-
-  &>li:not(:last-child) {
-    margin-right: 25px;
-  }
-`;
