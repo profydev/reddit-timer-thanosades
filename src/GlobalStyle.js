@@ -10,6 +10,8 @@ const GlobalStyle = createGlobalStyle`
     font-size: ${({ theme }) => theme.font.size.default};
     line-height: ${({ theme }) => theme.font.lineHeight.default};
     color: ${({ theme }) => theme.color.text};
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   *, *:before, *:after {
