@@ -7,10 +7,7 @@ const Header = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-  &>* {
-    padding: 0 80px;
-  }
+  padding: 0 80px;
 `;
 
 export default Header;

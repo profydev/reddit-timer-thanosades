@@ -6,7 +6,7 @@ export default function Nav() {
     <nav>
       <HorizontalList>
         <li>Search</li>
-        <li>How it works</li>
+        <li><a href="#how-it-works">How it works</a></li>
         <li>About</li>
       </HorizontalList>
     </nav>

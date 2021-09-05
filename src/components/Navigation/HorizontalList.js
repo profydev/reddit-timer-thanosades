@@ -2,15 +2,18 @@ import styled from 'styled-components';
 
 const HorizontalList = styled.ul`
   list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0;
-  padding-top: 3px;
 
   &>li:not(:last-child) {
-    margin-right: 25px;
+    padding-right: 25px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
   }
 `;
 

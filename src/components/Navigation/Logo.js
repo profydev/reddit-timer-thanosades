@@ -4,6 +4,7 @@ export default function Logo() {
   return (
     <>
       <a href="/">
+        {/* style on svg fixes the extra space on the anchor */}
         <svg width="150" style={{ display: 'block' }} height="36" viewBox="0 0 150 36" fill="none" xmlns="http://www.w3.org/2000/svg">
           <ellipse cx="83.1185" cy="10.5623" rx="1.9508" ry="1.93779" fill="#FF4500" />
           <ellipse cx="104.939" cy="10.5623" rx="1.9508" ry="1.93779" fill="#FF4500" />
