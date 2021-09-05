@@ -6,8 +6,8 @@ const HorizontalList = styled.ul`
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding-bottom: 5px;
-  margin: 0;
+  padding: 0;
+  padding-top: 3px;
 
   &>li:not(:last-child) {
     margin-right: 25px;
