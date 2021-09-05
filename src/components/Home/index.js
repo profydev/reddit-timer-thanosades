@@ -46,7 +46,135 @@ export default function Home() {
       <p>Home page</p>
       <p>Home page</p>
 
-      <p id="how-it-works">Home page</p>
+      <h2 id="how-it-works">How it works section</h2>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <h2 id="about">About section</h2>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
+      <p>Home page</p>
     </div>
   );
 }
