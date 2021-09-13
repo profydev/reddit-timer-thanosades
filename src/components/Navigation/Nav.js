@@ -24,7 +24,7 @@ export default function Nav() {
   return (
     <nav>
       <HorizontalList>
-        <li><Link to="/search">Search</Link></li>
+        <li><Link to="/search/javascript">Search</Link></li>
         <li><HashLink to="#how-it-works">How it works</HashLink></li>
         <li><HashLink to="#about">About</HashLink></li>
       </HorizontalList>
