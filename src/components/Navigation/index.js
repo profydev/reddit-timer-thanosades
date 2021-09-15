@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import LogoComponent from './LogoComponent';
 import Nav from './Nav';
-import Logo from './Logo';
 
 const Header = styled.header`
   width: 100%;
@@ -17,7 +17,7 @@ export default function Navigation() {
   return (
     <>
       <Header>
-        <Logo />
+        <LogoComponent />
         <Nav />
       </Header>
     </>
