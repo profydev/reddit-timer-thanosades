@@ -4,13 +4,15 @@ import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
-function setup() {
-  return render(<App />, { wrapper: MemoryRouter });
-}
-
-
 describe('Header', () => {
-  beforeEach(() => { setup(); });
+
+  beforeEach(() => {
+    render(
+      <MemoryRouter>
+        <App />
+      </MemoryRouter>
+    );
+  })
 
   test('Has a link called "How it works" that links to the home page', () => {
     const link = screen.getByRole('link', { name: /how it works/i });
@@ -26,7 +28,7 @@ describe('Header', () => {
     expect(screen.getByText(/home page/i)).toBeInTheDocument();
   });
 
-  test('Logo links to the home page', () => {
+  test('Has a logo that links to the home page', () => {
     const logo = screen.getByRole('application');
     let link = screen.getByRole('link', { name: /search/i });
     userEvent.click(link);
@@ -41,7 +43,4 @@ describe('Header', () => {
 
     expect(screen.getByText(/search page/i)).toBeInTheDocument();
   });
-
-  
-  
 });
