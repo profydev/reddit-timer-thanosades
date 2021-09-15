@@ -35,11 +35,8 @@ describe('Header', () => {
         <App />
       </MemoryRouter>,
     );
-    const logo = screen.getByRole('application');
-    const link = screen.getByRole('link', { name: /search/i });
-    userEvent.click(link);
+    const logo = screen.getByText(/logo\.svg/i);
     userEvent.click(logo);
-
     expect(screen.getByText(/home page/i)).toBeInTheDocument();
   });
 
