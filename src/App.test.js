@@ -19,11 +19,29 @@ describe('Header', () => {
     expect(screen.getByText(/home page/i)).toBeInTheDocument();
   });
 
+  test('Has a link called "About" that links to the home page', () => {
+    const link = screen.getByRole('link', { name: /about/i });
+    userEvent.click(link);
+
+    expect(screen.getByText(/home page/i)).toBeInTheDocument();
+  });
+
+  test('Logo links to the home page', () => {
+    const logo = screen.getByRole('application');
+    let link = screen.getByRole('link', { name: /search/i });
+    userEvent.click(link);
+    userEvent.click(logo);
+
+    expect(screen.getByText(/home page/i)).toBeInTheDocument();
+  });
+
   test('Has a link called "Search" that leads to the search page', () => {
     const link = screen.getByRole('link', { name: /search/i });
     userEvent.click(link);
 
     expect(screen.getByText(/search page/i)).toBeInTheDocument();
-  })
+  });
+
+  
   
 });

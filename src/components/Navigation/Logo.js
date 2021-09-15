@@ -6,7 +6,7 @@ export default function Logo() {
     <>
       <Link to="/">
         {/* style on svg fixes the extra space on the anchor */}
-        <svg width={150} height={36} style={{ display: 'block' }} viewBox="0 0 150 36" fill="none">
+        <svg role="application" width={150} height={36} style={{ display: 'block' }} viewBox="0 0 150 36" fill="none">
           <ellipse
             cx={83.1185}
             cy={10.5623}
