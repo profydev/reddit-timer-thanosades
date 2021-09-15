@@ -25,8 +25,8 @@ export default function Nav() {
     <nav>
       <HorizontalList>
         <li><Link to="/search/javascript">Search</Link></li>
-        <li><HashLink to="#how-it-works">How it works</HashLink></li>
-        <li><HashLink to="#about">About</HashLink></li>
+        <li><HashLink to="/#how-it-works">How it works</HashLink></li>
+        <li><HashLink to="/#about">About</HashLink></li>
       </HorizontalList>
     </nav>
   );
