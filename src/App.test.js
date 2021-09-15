@@ -5,14 +5,13 @@ import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
 describe('Header', () => {
-
   beforeEach(() => {
     render(
       <MemoryRouter>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
-  })
+  });
 
   test('Has a link called "How it works" that links to the home page', () => {
     const link = screen.getByRole('link', { name: /how it works/i });
@@ -30,7 +29,7 @@ describe('Header', () => {
 
   test('Has a logo that links to the home page', () => {
     const logo = screen.getByRole('application');
-    let link = screen.getByRole('link', { name: /search/i });
+    const link = screen.getByRole('link', { name: /search/i });
     userEvent.click(link);
     userEvent.click(logo);
 
